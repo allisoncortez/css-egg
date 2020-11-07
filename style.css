@@ -1,0 +1,35 @@
+body {
+    background: pink;
+}
+
+.page {
+    width: 600px;
+    padding: 50px 50px;
+    margin: 50px auto;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .egg {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 180px;
+    height: 180px;
+    /*  Temporary background to check we're sized and centered OK!  */
+    background: white;
+  }
