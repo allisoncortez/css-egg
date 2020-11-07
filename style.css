@@ -28,8 +28,9 @@ body {
     display: block;
     margin-top: 8%;
     margin-bottom: 8%;
-    width: 180px;
-    height: 180px;
+    width: 380px;
+    height: 230px;
     /*  Temporary background to check we're sized and centered OK!  */
     background: white;
+    border-radius: 50% 50% 50% 50% / 47% 92% 45% 59%;
   }
