@@ -15,6 +15,7 @@ body {
   .container {
     width: 500px;
     height: 500px;
+    /* display:block; margin:auto => centers this horizontally, when using position relative */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,14 +24,21 @@ body {
   }
 
   .egg {
-    position: relative;
-    margin: auto;
-    display: block;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    width: 380px;
-    height: 230px;
+    position: absolute;
+    top: 12%;
+    width: 70%; /* 380px*/
+    height: 50%; /* 230px*/
     /*  Temporary background to check we're sized and centered OK!  */
     background: white;
     border-radius: 50% 50% 50% 50% / 47% 92% 45% 59%;
+  }
+
+  .yolk {
+      position: absolute;
+      top: 30%;
+      left: 34%;
+      width: 54%;
+      height: 54%;
+      background:yellow;
+      border-radius: 50%;
   }
