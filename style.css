@@ -39,7 +39,7 @@ body {
       left: 34%;
       width: 54%;
       height: 54%;
-      background: yellow;
+      background: #ffa500; /* #ffa500 => orange */  /* #fff450 => yellow */
       border-radius: 50%;
   }
 
