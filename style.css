@@ -21,6 +21,30 @@ body {
     align-items: center;
     margin-bottom: 50px;
     position: relative;
+    animation-name: float; /* NEW */ 
+    animation-duration: 5s; /* NEW */
+    animation-iteration-count: infinite; /* NEW */
+    animation-timing-function: ease; /* NEW */
+  }
+
+  .egg-float {
+    width: 350px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #868679;
+    position: relative;
+    top: 330px;
+    left: -150px;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      top: 80px;
+    }
+  
+    50% {
+      top: 70px;
+    }
   }
 
   .egg {
@@ -78,3 +102,5 @@ body {
     border-left: 5px solid #3c2f2f; /* dark outline */
     z-index: 4;
   }
+
+  
